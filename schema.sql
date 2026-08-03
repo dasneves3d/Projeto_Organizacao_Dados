@@ -1,6 +1,21 @@
+CREATE TABLE Utilizadores (
+id SERIAL PRIMARY KEY,
+nome VARCHAR(100),
+email VARCHAR(100) UNIQUE,
+data_registo TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 CREATE TABLE Produtos (
 id SERIAL PRIMARY KEY,
 titulo VARCHAR(200),
 preco DECIMAL(10, 2),
 stock INT
+);
+
+CREATE TABLE Vendas (
+id SERIAL PRIMARY KEY,
+utilizador_id INT REFERENCES Utilizadores(id),
+produto_id INT REFERENCES Produtos(id),
+quantidade INT,
+data_venda TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
