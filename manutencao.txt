@@ -1,0 +1,19 @@
+
+recursos em tempo real:
+SELECT pid, usename, state, query, backend_start
+FROM pg_stat_activity
+WHERE state != 'idle';
+
+SELECT pid, usename, client_addr, state, query,
+now() - query_start AS duracao
+FROM pg_stat_activity
+WHERE state != 'idle'
+ORDER BY duracao DESC;
+• 2. Verificar estatísticas de uso e erros de tabelas/conexões:
+SELECT datname, numbackends AS sessoes_ativas,
+xact_commit AS transacoes_sucesso,
+xact_rollback AS transacoes_falhadas
+FROM pg_stat_database
+WHERE datname = current_database();
+
+VACUUM ANALYZE;
