@@ -8,6 +8,6 @@ dados.
 
 "O que fazer se tudo arder?": "Corram o ficheiro schema.sql e data.sql que está nesta pasta." 
 
-#Finalização
+# Finalização
 
 Reflete a consolidação da infraestrutura e a conclusão do percurso prático do projeto.|
