@@ -1,0 +1,10 @@
+REGISTO DE MELHORIAS - 2026
+o Junho/Semana 1: Automatização do processo de backup (poupança
+estimada: 30 min/semana).
+o Junho/Semana 2: Criação do Painel de Vendas interativo (poupança
+estimada: 1 hora/semana em cálculos manuais).
+o Junho/Semana 3: Implementação de permissões restritas e logs de
+auditoria contra eliminação acidental de dados.
+• Como usar: Na segunda-feira, antes da reunião semanal, imprimam ou
+enviem isto. Isto não é um diário, é a vossa prova de que a empresa lucra
+mais convosco.
