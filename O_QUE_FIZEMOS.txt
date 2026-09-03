@@ -8,3 +8,24 @@ auditoria contra eliminação acidental de dados.
 • Como usar: Na segunda-feira, antes da reunião semanal, imprimam ou
 enviem isto. Isto não é um diário, é a vossa prova de que a empresa lucra
 mais convosco.
+
+
+
+• Mês 1: A "Visão de Raio-X"
+o Meta: Criar um relatório que cruza dados que antes estavam
+separados (ex: Que clientes compram quais produtos?).
+o Ação: Usar SQL para criar uma VIEW que mostra o perfil de consumo
+do cliente. Isto permite ao Diretor vender mais, porque ele passa a
+saber o que oferecer a cada um.
+• Mês 2: A "Automação de Entrada"
+o Meta: Parar de introduzir dados à mão.
+o Ação: Criar um formulário simples (pode ser um formulário Google
+ou uma página simples de HTML) que grava os dados diretamente na
+base de dados, sem o Excel no meio.
+• Mês 3: A "Rede Colaborativa"
+o Meta: Ligar a Organização a parceiros externos (fornecedores ou
+clientes).
+o Ação: Criar uma área de acesso restrito (um utilizador SQL limitado)
+para que o fornecedor veja o stock sem ter de vos ligar.
+Passo 3: O "Diário do Engenheiro" (A vossa marca)
+Um engenheiro de elite não confia na memória.
