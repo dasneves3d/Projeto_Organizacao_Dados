@@ -1,0 +1,11 @@
+PRÓXIMOS PASSOS (O que vamos automatizar a seguir):
+1. Criar um sistema para que o fornecedor insira o stock diretamente
+(para evitar erros).
+2. Migrar os dados dos clientes para uma plataforma que permita enviar
+e-mails automáticos.
+• Ação: Mostrem isto ao Diretor. "Chefe, já estabilizámos a empresa. Agora, o
+meu plano para o próximo mês é este."
+PRÓXIMOS PASSOS (Plano de Automação):
+1. Criar portal de integração direta para fornecedores atualizarem stock em tempo
+real.
+2. Migrar a base de clientes para um sistema de comunicação e envios automáticos
